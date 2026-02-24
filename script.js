@@ -37,5 +37,5 @@ Btn2.addEventListener("click", () => {
 });
 
 Btn1.addEventListener("click", () => {
-    showResult("Good girl, I knew it😏!");
+    showResult("Good girl, I knew it😇!");
 });

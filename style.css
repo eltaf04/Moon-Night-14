@@ -1,0 +1,77 @@
+ * {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background:
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)),
+    url(Pictures/OIP.webp) no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    background-position: center;
+    min-height: 100vh;
+}
+.container {
+    max-width: 456px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    color: #e3e3cc;
+    font-weight: bold;
+    justify-content: center;
+}
+.container img {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    opacity: 0.7;
+}
+.text {
+    font-weight: bold;
+    margin-top: 40px;
+    color: #e3e3cc;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #e3e3cc;
+}
+
+.text button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.button {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.button1, .button2 {
+    flex: 1;
+}
+.button button {
+    background-color: #7f2626;
+    color: #e3e3cc;
+}
+
